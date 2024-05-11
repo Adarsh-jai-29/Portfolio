@@ -270,13 +270,21 @@ gap : 20px 20px;
   height : 140px;
   background-color: white;
  border: 1px solid red;
+ border-radius: 7px;
+}
+.bootstrap h2 {
+  font-size: 1.4em;
 }
 
  .html{
   background-image: url('images/skills/html.png');
   background-position: center ;
   background-size: cover;
+  padding: 12px;
+
+
  }
+
  .css{
   background-image: url('images/skills/css.png');
   background-position: center ;
@@ -297,7 +305,9 @@ gap : 20px 20px;
   width: 90%;
   height:80%;
  }
- 
+ .react{
+  padding-bottom: 20px;
+ }
  .git img{
   width: 80%;
   height:70%;
@@ -312,15 +322,15 @@ gap : 20px 20px;
   height:80%;
  }
  
- .dummy img{
-  width: 90%;
-  height:80%;
- }
- .dummy img{
-  width: 90%;
-  height:80%;
+ .dummy{
+  padding-bottom: 20px;
  }
 
+ .dummy img{
+  width: 90%;
+  height:80%;
+ }
+ 
  .connect{
 height: 100vh;
 width: 100vw;

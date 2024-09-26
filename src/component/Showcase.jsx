@@ -1,8 +1,8 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
-import AdarshJaiswalResume from "../images/AdarshJaiswalResume.pdf";
-import AdarshPic from "../images/adarsh-pic.jpg";
+import AdarshJaiswalResume from "../assets/images/AdarshJaiswalResume.pdf";
+import AdarshPic from "../assets/images/adarsh-pic.jpg";
 
 export default function Showcase() {
   return (

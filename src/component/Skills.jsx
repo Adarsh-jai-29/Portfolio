@@ -1,17 +1,17 @@
 import React from 'react'
 
 
-import HTMLicon from '../images/skills/HTML_icon.svg'
-import CSSicon from '../images/skills/CSS_icon.svg'
-import TailwindIcon from '../images/skills/Tailwind_icon.svg'
-import JavaScriptIcon from '../images/skills/JAVASCRIPT_icon.svg'
-import GitIcon from '../images/skills/git_icon.svg'
-import ReactIcon from '../images/skills/REACT_icon.svg'
-import BootstrapIcon from '../images/skills/Bootstrap_icon.svg'
-import NodeJsIcon from '../images/skills/NodeJs_icon.svg'
-import NextJsIcon from '../images/skills/NextJs_icon.png'
-import ReduxIcon from '../images/skills/Redux_icon.svg'
-import MongoDBicon from '../images/skills/MongoDB_icon.svg'
+import HTMLicon from '../assets/images/skills/HTML_icon.svg'
+import CSSicon from '../assets/images/skills/CSS_icon.svg'
+import TailwindIcon from '../assets/images/skills/Tailwind_icon.svg'
+import JavaScriptIcon from '../assets/images/skills/JAVASCRIPT_icon.svg'
+import GitIcon from '../assets/images/skills/git_icon.svg'
+import ReactIcon from '../assets/images/skills/REACT_icon.svg'
+import BootstrapIcon from '../assets/images/skills/Bootstrap_icon.svg'
+import NodeJsIcon from '../assets/images/skills/NodeJs_icon.svg'
+import NextJsIcon from '../assets/images/skills/NextJs_icon.png'
+import ReduxIcon from '../assets/images/skills/Redux_icon.svg'
+import MongoDBicon from '../assets/images/skills/MongoDB_icon.svg'
 
 
 import SkillCard from './SkillCard'

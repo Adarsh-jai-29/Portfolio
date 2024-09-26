@@ -1,5 +1,5 @@
 import React from 'react'
-import AdarshJaiswalResume from "../images/AdarshJaiswalResume.pdf";
+import AdarshJaiswalResume from "../assets/images/AdarshJaiswalResume.pdf";
 
 
 export default function About() {

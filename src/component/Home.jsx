@@ -2,9 +2,9 @@ import React from 'react'
 import '../style.css'
 import Project from './Project'
 
-import ToDo from "../images/toDo.jpg"
-import MovieHub from "../images/moviehub.jpg"
-import Wt from "../images/wt.jpg"
+import ToDo from "../assets/images/toDo.jpg"
+import MovieHub from "../assets/images/moviehub.jpg"
+import Wt from "../assets/images/wt.jpg"
 import Showcase from './Showcase'
 import Navbar from './Navbar'
 import About from './About'

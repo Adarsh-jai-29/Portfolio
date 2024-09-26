@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactIcon from '../images/contact.png'
+import ContactIcon from '../assets/images/contact.png'
 
 import { faArrowRight, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

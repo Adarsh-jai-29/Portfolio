@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function Project({className,id,projectHeading,href,prImage}) {
-  console.log(prImage)
   return (
     <>
   <div className="">

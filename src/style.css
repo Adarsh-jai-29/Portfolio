@@ -197,10 +197,6 @@ hr {
   max-width: 48%;
   margin: 4em auto;
 }
-/* .prImage{
-          padding: 20px; 
-            width:670px;
-         } */
 
 .project-3 {
   padding: 20px;
@@ -381,7 +377,7 @@ hr {
     width: 95vw;
   }
 
-  .project-1 {
+  #project-1,#project-2,#project-3 {
     font-size: 1em;
     flex-direction: column;
     text-align: center;
@@ -398,30 +394,6 @@ hr {
     max-width: 90%;
     margin: 4em auto;
   }
-  /* project 2 */
-
-  .project-2 {
-    font-size: 1em;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
-    /* height: 22px; */
-    width: 100vw;
-    margin: 45px auto;
-    display: flex;
-  }
-  /* project-3 */
-
-  .project-3 {
-    font-size: 1em;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
-    width: 100vw;
-    margin: 45px auto;
-    display: flex;
-  }
-
   .about-me-container {
     /* width: 94vw; */
     max-width: 80vw;

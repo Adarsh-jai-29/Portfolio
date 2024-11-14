@@ -8,8 +8,8 @@ import JavaScriptIcon from '../assets/images/skills/JAVASCRIPT_icon.svg'
 import GitIcon from '../assets/images/skills/git_icon.svg'
 import ReactIcon from '../assets/images/skills/REACT_icon.svg'
 import BootstrapIcon from '../assets/images/skills/Bootstrap_icon.svg'
-import NodeJsIcon from '../assets/images/skills/NodeJs_icon.svg'
-import NextJsIcon from '../assets/images/skills/NextJs_icon.png'
+import NodeJsIcon from '../assets/images/skills/NodeJS_icon.svg'
+import NextJsIcon from '../assets/images/skills/NextJS_icon.png'
 import ReduxIcon from '../assets/images/skills/Redux_icon.svg'
 import MongoDBicon from '../assets/images/skills/MongoDB_icon.svg'
 
@@ -25,6 +25,7 @@ export default function Skills() {
         My <span className="purple">Technical</span> Skills
       </h1>
       <div className="skill-container">
+        {/* map this components */}
        <SkillCard skillName={'HTML'} skillImage={HTMLicon} />
        <SkillCard skillName={'CSS'} skillImage={CSSicon} />
        <SkillCard skillName={'Tailwind'} skillImage={TailwindIcon} />

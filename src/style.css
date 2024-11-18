@@ -42,12 +42,13 @@ ul li {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 99vw;
   top: 0;
   background-color: blueviolet;
+  padding: 0 25px;
 }
 
 .menu {
@@ -331,17 +332,47 @@ hr {
   text-align: center;
 }
 
+.hamburger-react{
+  display: none;
+}
+.mobile-menu {
+  display: none;
+  background-color: #724848;
+  /* z-index: 99; */
+  max-width: 98vw;
+  min-height: 90vh;
+  margin: 60px auto;
+  position: relative;
+}
+.mobile-ul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.mobile-ul li{
+    display: block;
+  position: relative;
+  margin: 10px;
+
+    
+}
+
 /* media query */
 
 @media screen and (max-width: 850px) {
   body {
     font-size: 0.8rem;
   }
-
-  .hamburger-menu {
-    width: 30px;
-    height: 30px;
-    background-color: beige;
+  .hamburger-react{
+    display: block;
+  }
+  .nav-links ul{
+    display: none;
+  }
+  .show {
+  display: block;
   }
 
   .links {
@@ -377,7 +408,7 @@ hr {
     width: 95vw;
   }
 
-  #project-1,#project-2,#project-3 {
+  .project {
     font-size: 1em;
     flex-direction: column;
     text-align: center;

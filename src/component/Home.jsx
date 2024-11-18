@@ -1,10 +1,11 @@
 import React from 'react'
+
 import '../style.css'
 import Project from './Project'
-
+import AdjStore from "../assets/images/adjStore.avif"
+import RestCountryApp from "../assets/images/rest-country-app-image.avif"
+import ExpenseTracker from "../assets/images/expense-tracker-image.avif"
 import ToDo from "../assets/images/toDo.jpg"
-import MovieHub from "../assets/images/moviehub.jpg"
-import Wt from "../assets/images/wt.jpg"
 import Showcase from './Showcase'
 import Navbar from './Navbar'
 import About from './About'
@@ -16,14 +17,16 @@ import Footer from './Footer'
 
 export default function Home() {
 
-
+  
   return (
    <>
    <Navbar />
   <Showcase />
-  <Project className={'project project-1'} id={'project-1'} projectHeading={'To-do App'} href={'https://adarshjai-to-do.netlify.app'} prImage={ToDo} />
-  <Project className={'project project-2'} id={'project-2'} projectHeading={'MovieHub'} href={'https://adarshjai-moviehub.netlify.app'} prImage={MovieHub} />
-  <Project className={'project project-3'} id={'project-3'} projectHeading={'World Travel'} href={'https://adarshjaiwt.netlify.app'} prImage={Wt} />
+
+  <Project className={'project'} projectHeading={'AdjStore'} href={'https://adj-store.netlify.app'} prImage={AdjStore} />
+  <Project className={'project'} projectHeading={'RestCountryApp'} href={'https://adarshjai-rest-country-api.netlify.app'} prImage={RestCountryApp} />
+  <Project className={'project'} projectHeading={'ExpenseTracker'} href={'https://adarshjai-expense-tracker.netlify.app'} prImage={ExpenseTracker} />
+  <Project className={'project'} projectHeading={'To-do App'} href={'https://adarshjai-to-do.netlify.app'} prImage={ToDo} />
 
   <hr />
   <About />

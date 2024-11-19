@@ -340,9 +340,9 @@ hr {
   background-color: #724848;
   /* z-index: 99; */
   max-width: 98vw;
+  width: 98vw;
   min-height: 90vh;
-  margin: 60px auto;
-  position: relative;
+  position: fixed;
 }
 .mobile-ul{
   position: absolute;

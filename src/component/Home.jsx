@@ -23,7 +23,7 @@ export default function Home() {
    <Navbar />
   <Showcase />
 
-  <Project className={'project'} projectHeading={'AdjStore'} href={'https://adj-store.netlify.app'} prImage={AdjStore} />
+  <Project className={'project'} id={'project-1'} projectHeading={'AdjStore'} href={'https://adj-store.netlify.app'} prImage={AdjStore} />
   <Project className={'project'} projectHeading={'RestCountryApp'} href={'https://adarshjai-rest-country-api.netlify.app'} prImage={RestCountryApp} />
   <Project className={'project'} projectHeading={'ExpenseTracker'} href={'https://adarshjai-expense-tracker.netlify.app'} prImage={ExpenseTracker} />
   <Project className={'project'} projectHeading={'To-do App'} href={'https://adarshjai-to-do.netlify.app'} prImage={ToDo} />

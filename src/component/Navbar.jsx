@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Hamburger from 'hamburger-react'
 
+import AdarshJaiswalResume from "./../assets/images/AdarshJaiswalResume.pdf";
 export default function Navbar() {
   const [isOpen, setOpen] = useState(false)
 
@@ -19,7 +20,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a className="menu" href="#download-resume-btn">
+              <a className="menu" download='' href={AdarshJaiswalResume}>
                 Resume
               </a>
             </li>
@@ -52,7 +53,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a className="menu" href="#download-resume-btn">
+              <a className="menu" download='' href={AdarshJaiswalResume}>
                 Resume
               </a>
             </li>

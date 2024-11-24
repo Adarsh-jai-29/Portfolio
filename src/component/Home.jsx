@@ -1,5 +1,3 @@
-import React from 'react'
-
 import '../style.css'
 import Project from './Project'
 import AdjStore from "../assets/images/adjStore.avif"

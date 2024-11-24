@@ -1,4 +1,3 @@
-import React from 'react'
 import ContactIcon from '../assets/images/contact.png'
 
 import { faArrowRight, faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -22,7 +21,7 @@ export default function Contact() {
           LinkedIn&nbsp;
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a className="" href="#">
+        <a className="" href="https://wa.me/8127575765">
           WhatsApp&nbsp;
        
           <FontAwesomeIcon icon={faWhatsapp} />

@@ -16,7 +16,7 @@ export default function Project({className,id,projectHeading,href,prImage}) {
       <div className="project-desc">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere alias
         atque repellendus minus saepe.
-      <a href={href} className="view-pr">
+      <a href={href} target='_blank' className="view-pr">
           View Project&nbsp;
          <FontAwesomeIcon icon={faArrowRight} />
         </a>

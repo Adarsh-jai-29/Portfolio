@@ -16,27 +16,27 @@ export default function Navbar() {
           <ul className=''>
             <li>
               <a className="menu" href="#">
-                Home
+                HOME
               </a>
             </li>
             <li>
               <a className="menu" download='' href={AdarshJaiswalResume}>
-                Resume
+                RESUME
               </a>
             </li>
             <li>
               <a className="menu" href="#project-1">
-                Projects
+                PROJECT
               </a>
             </li>
             <li>
               <a className="menu" href="#about-me">
-                About &amp; skill
+                ABOUT &amp; SKILL
               </a>
             </li>
             <li>
               <a className="menu" href="#connect">
-                Contact me
+                CONTACT ME
               </a>
             </li>
           </ul>

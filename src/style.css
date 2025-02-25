@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,10 @@
 
 html {
   scroll-behavior: smooth;
+   --cursor-color: #848484;
+}
+html.dark-mode {
+  --cursor-color: #fff;
 }
 
 body {
@@ -54,7 +60,8 @@ ul li {
 .menu {
   text-decoration: none;
   color: aliceblue;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-family: "Montserrat", serif;
 }
 
 .menu:hover {

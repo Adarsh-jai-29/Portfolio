@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 
 * {
   margin: 0;
@@ -245,7 +246,7 @@ hr {
 
 .skills {
   padding: 10px;
-  width: 98vw;
+  /* width: 98vw; */
   min-height: max-content;
   background-color: rgba(11, 3, 30, 0.983);
 }
@@ -285,9 +286,9 @@ hr {
 
 .connect {
   height: 100vh;
-  width: 98vw;
+  /* width: 98vw; */
   background-color: rgba(34, 13, 82, 0.641);
-  padding: 2.5em;
+  /* padding: 2.5em; */
 }
 
 .connect .main {
@@ -397,9 +398,9 @@ hr {
   }
 
   .picture img {
-    width: 250px;
+    width: 100%;
     max-width: 300px;
-    margin: 15px;
+    margin: 32px auto;
   }
 
   .text {

@@ -5,7 +5,7 @@ const experienceData = [
   {
     type: "Internship",
     title: "Software developer Intern at Prodesk It ",
-    duration: "June 2025 - July 2024 ( 2 mons )",
+    duration: "June 2025 - July 2025 ( 2 mons )",
     achievements: [
       "Created dynamic and responsive user interfaces with React.js and Tailwind CSS.",
       "Developed and enhanced web applications using React.",
@@ -115,7 +115,7 @@ export default function TechnicalExperience() {
         <div className="fixed bottom-8 right-8">
           <a
             href="mailto:adarshjai29@gmail.com"
-            className="flex items-center gap-2 bg-[blur-2xl] hover:bg-[blueviolet] border text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
+            className="flex items-center gap-2 backdrop-blur-2xl hover:bg-[blueviolet] border text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             <Mail size={20} />
             Send Mail

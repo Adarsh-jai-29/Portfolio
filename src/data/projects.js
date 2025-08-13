@@ -23,7 +23,7 @@ export const projects = [
       description: "A full-stack Todo application built with NestJS, designed for learning and testing the capabilities of the progressive framework. It includes user authentication and full CRUD functionality.",
       techStack: "ReactJS, Redux, Tailwind CSS, Daisy UI, Node.js, Express, MongoDB, Mongoose",
       image: TicketBookingShow,
-      liveUrl: "adarshjai-ticketbookingsystem.netlify.app",
+      liveUrl: "https://adarshjai-ticketbookingsystem.netlify.app",
       githubUrl: "https://github.com/Adarsh-jai-29/7_TicketBookingSystem",
       gradient: "from-purple-400 to-purple-600"
     },
@@ -59,8 +59,8 @@ export const projects = [
       description: "A comprehensive weather application with real-time data, forecasts, and interactive maps. Features location-based weather updates and beautiful visualizations.",
       techStack: "React, TypeScript, Chart.js, Weather API, Tailwind CSS",
       image: MovieDiscovery,
-      liveUrl: " https://adarshjai-movie-discovery.netlify.app/",
-      githubUrl: " https://adarshjai-movie-discovery.netlify.app/",
+      liveUrl: "https://adarshjai-movie-discovery.netlify.app/",
+      githubUrl: "https://github.com/Adarsh-jai-29/6_TMDB_Movies",
       gradient: "from-blue-500 to-purple-500"
     },
     {

@@ -2,8 +2,6 @@
 @import "tailwindcss";
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -21,10 +19,17 @@ body {
 }
 /* uttility classes */
 
+hr {
+  border: 0;
+  background: rgb(146, 21, 230);
+  height: 1.3px;
+  margin: 70px 0;
+}
+
 .text {
   color: rgb(247, 238, 228);
+  text-align: center;
   font-size: 28px;
-  margin: 60px;
   letter-spacing: 2px;
 }
 /* -------------------------- */
@@ -56,6 +61,7 @@ ul li {
   top: 0;
   background-color: blueviolet;
   padding: 0 25px;
+  z-index: 101;
 }
 
 .menu {
@@ -103,253 +109,30 @@ nav ul li {
   display: flex;
   justify-content: space-around;
   margin: 5.5em 1.25em;
-  max-width: 100vw;
+  max-width: 99vw;
+  padding: 24px 1.25em;
 }
 
 .picture img {
   border: 3px solid #6e4891;
   border-radius: 30%;
-  max-width: 25vw;
+  max-width: 24vw;
   /* min-height: 68vh; */
 }
-
-/* .picture img:hover {
-   max-width: 27vw;
-} */
 
 img {
   width: 100%;
   height: 100%;
 }
 
-.text {
-  margin: 80px 60px 0px 0px;
-}
-
 #element {
   color: blueviolet;
 }
 
-.download-resume-btn {
-  font-size: 1rem;
-  padding: 0.7em;
-  margin-top: 1.3em;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: aliceblue;
-  text-decoration: none;
-}
-
-/* project section styling */
-
-.my-pr {
-  color: rgb(247, 238, 228);
-  font-size: 28px;
-  margin: 20px;
-  letter-spacing: 3px;
-}
-
-hr {
-  border: 0;
-  background: rgb(146, 21, 230);
-  height: 1.3px;
-  margin-top: 80px;
-}
-.circle {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background-color: blueviolet;
-}
-
-.project-heading {
-  color: aliceblue;
-  display: inline-block;
-}
-
-.project {
-  padding: 20px;
-  margin: 0 auto;
-  height: 198px;
-  width: 60vw;
-  margin: 45px auto;
-  display: flex;
-  justify-content: space-around;
-}
-
-.project-desc {
-  max-width: 310px;
-  width: 220px;
-  color: aliceblue;
-  font-size: 1.3rem;
-}
-.project-name {
-  padding: 3px;
-}
-
-.view-pr {
-  font-size: 1.6rem;
-  display: block;
-  background-color: rgba(212, 176, 244, 0.583);
-  font-weight: 900;
-  color: black;
-  margin-top: 11px;
-  padding: 6px;
-  border-radius: 4px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.pr-image {
-  /* margin: 0 20em; */
-  /* border : 4px solid red; */
-  max-width: 48%;
-  margin: 4em auto;
-}
-
-.project-3 {
-  padding: 20px;
-  margin: 0 auto;
-  height: 198px;
-  width: 60vw;
-  /* margin: 45px auto; */
-  display: flex;
-  justify-content: space-around;
-}
-
-/* about me section styling */
-
-.about-me {
-  color: rgb(247, 238, 228);
-  font-size: 28px;
-  margin: 20px;
-  letter-spacing: 3px;
-}
-
-.about-me-container {
-  background-color: #6e4891;
-  font-size: 1.3rem;
-  color: #b1b7b7;
-  max-width: 40vw;
-  min-height: 70vh;
-  margin: 2em auto;
-  padding: 64px;
-  letter-spacing: 1px;
-  text-align: center;
-  border-radius: 16px;
-}
-
-.about-me-container div {
-  margin: 1em;
-  color: beige;
-}
-
-.skills {
-  padding: 10px;
-  /* width: 98vw; */
-  min-height: max-content;
-  background-color: rgba(11, 3, 30, 0.983);
-}
-
-.skill-heading {
-  color: beige;
-  margin: 50px;
-}
-
-.skill-container {
-  margin: 0 auto;
-  width: 45vw;
-  min-height: max-content;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fill, 110px);
-  grid-template-rows: repeat(2, 140px);
-  gap: 40px 30px;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  width: 110px;
-  height: 160px;
-  background-color: white;
-  box-shadow: 5px 5px blueviolet;
-  border-radius: 7px;
-}
-.skill:hover{
-  box-shadow: 0px 0px red;
-}
-
-.skill img {
-  padding: 10px;
-}
-
-.connect {
-  height: 100vh;
-  /* width: 98vw; */
-  background-color: rgba(34, 13, 82, 0.641);
-  /* padding: 2.5em; */
-}
-
-.connect .main {
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  margin-top: 80px;
-  align-items: center;
-}
-
-.telephone {
-  width: 300px;
-}
-
-.contact-heading {
-  margin: 2rem;
-  font-size: 2rem;
-}
-
-.contact-links a {
-  font-size: 1rem;
-  height: 40px;
-  width: 160px;
-  padding: 0.7em;
-  margin-top: 1.3em;
-  display: block;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: rgba(212, 176, 244, 0.583);
-  text-decoration: none;
-  color: azure;
-}
-.contact-links a:hover{
-  background-color: rgba(200, 123, 226, 0.583);
-}
-
-.contact-links {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer {
-  letter-spacing: 0.2px;
-  font-size: 1.1rem;
-  color: aliceblue;
-  position: relative;
-  top: 5vh;
-  max-width: 100vw;
-  min-height: 8vh;
-  text-align: center;
-}
-
-.hamburger-react{
-  display: none;
-}
 .mobile-menu {
   display: none;
   background-color: #724848;
-  /* z-index: 99; */
+  z-index: 99;
   max-width: 98vw;
   width: 98vw;
   min-height: 90vh;
@@ -367,8 +150,10 @@ hr {
   position: relative;
   margin: 10px;
 
-    
 }
+ .hamburger-react{
+    display: none;
+  }
 
 /* media query */
 
@@ -385,81 +170,11 @@ hr {
   .show {
   display: block;
   }
-
-  .links {
-    display: none;
-  }
-
+  
   .showcase {
     display: flex;
     margin: 5.5em 0;
     flex-direction: column-reverse;
     align-items: center;
-  }
-
-  .picture img {
-    width: 100%;
-    max-width: 300px;
-    margin: 32px auto;
-  }
-
-  .text {
-    margin: 12px;
-  }
-
-  /* project */
-
-  .view-pr {
-    margin: 10px 0;
-  }
-
-  .project-desc {
-    margin: 0 auto;
-    text-align: center;
-    width: 95vw;
-  }
-
-  .project {
-    font-size: 1em;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1em;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
-    width: 100vw;
-    margin: 45px auto;
-    display: flex;
-  }
-
-  .pr-image {
-    max-width: 90%;
-    margin: 4em auto;
-  }
-  .about-me-container {
-    /* width: 94vw; */
-    max-width: 80vw;
-    padding: 50px;
-  }
-
-  .skill-container {
-    width: 45vw;
-    height: max-content;
-  }
-
-  .connect .main {
-    margin-top: 0px;
-    flex-direction: column;
-  }
-  .connect {
-    height: max-content;
-  }
-}
-@media screen and (max-width: 400px) {
-  .about-me-container {
-    /* width: 94vw; */
-    max-width: 86vw;
-    padding: 40px 20px;
-    font-size: 1rem;
   }
 }

@@ -112,7 +112,7 @@ export default function TechnicalExperience() {
         </div>
         
         {/* Send Mail Button */}
-        <div className="fixed bottom-8 right-8">
+        <div className="fixed bottom-8 right-8 z-1">
           <a
             href="mailto:adarshjai29@gmail.com"
             className="flex items-center gap-2 backdrop-blur-2xl hover:bg-[blueviolet] border text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"

@@ -33,7 +33,7 @@ export const Project = ({
         </div>
 
         {/* Description */}
-        <p className="text-gray-300 mb-4 leading-relaxed text-sm sm:text-base line-clamp-3 flex-1 !my-2">
+        <p className="text-gray-300 mb-4 leading-relaxed text-sm sm:text-base line-clamp-5 flex-1 !my-2">
           {description}
         </p>
 

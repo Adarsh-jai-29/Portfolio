@@ -8,7 +8,11 @@ export default function About() {
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="max-w-4xl w-full">
         {/* Header */}
-       
+        <div className="flex items-center justify-center mb-6">
+          <h1 className="text-xl flex items-center justify-center md:text-2xl font-light max-w-[100px] text-white mb-2">
+           About me
+          </h1>
+        </div>
         
         {/* Main Card */}
         <div className="bg-gradient-to-br from-purple-600 to-purple-800 rounded-3xl p-8 md:p-12 shadow-2xl backdrop-blur-sm bg-opacity-90">
